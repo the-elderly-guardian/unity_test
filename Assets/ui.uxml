@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/ui.uss?fileID=7433441132597879392&amp;guid=aab58bda8e67bebb7b96aaf2a0923af9&amp;type=3#ui" />
+    <ui:VisualElement style="height: 100%; width: 100%; max-height: none;">
+        <ui:DropdownField label="Landfields" index="-1" choices="Red tower, Blue tower, Pink tower" name="landfields" />
+        <ui:VisualElement name="leftBlock" style="align-items: center; justify-content: flex-start; position: absolute; left: 5%; bottom: 5%; width: 25%; height: 45%; display: flex; visibility: hidden;">
+            <ui:Button text="Up" display-tooltip-when-elided="true" enable-rich-text="false" name="up" style="position: absolute; left: 30%; bottom: auto; -unity-text-align: lower-center; top: 0; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; right: 30%;" />
+            <ui:Button text="Down" display-tooltip-when-elided="true" enable-rich-text="false" name="down" style="position: absolute; bottom: 0; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; left: 30%; right: 30%;" />
+            <ui:Button text="Left" display-tooltip-when-elided="true" enable-rich-text="false" name="left" style="position: absolute; left: 0; bottom: 30%; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; justify-content: flex-start; align-items: stretch; top: 30%;" />
+            <ui:Button text="Right" display-tooltip-when-elided="true" enable-rich-text="false" name="right" style="position: absolute; bottom: 30%; right: 0; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; top: 30%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="rightBlock" style="align-items: center; justify-content: center; position: absolute; left: auto; bottom: 5%; width: 25%; height: 45%; right: 5%; display: flex; visibility: hidden;">
+            <ui:Button text="Forward" display-tooltip-when-elided="true" enable-rich-text="false" name="forward" style="margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px;" />
+            <ui:Button text="Backward" display-tooltip-when-elided="true" enable-rich-text="false" name="backward" style="margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="middleBlock" style="position: absolute; bottom: 5%; left: 32%; width: 35%; height: 45%; display: flex; visibility: hidden;">
+            <ui:Button text="first person view" display-tooltip-when-elided="true" name="fpv" style="margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; position: absolute; top: 0; left: 25%; right: 25%;" />
+            <ui:Button text="third person view" display-tooltip-when-elided="true" name="tpv" style="margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; position: absolute; bottom: 0; left: 25%; right: 25%;" />
+            <ui:Button text="look at left" display-tooltip-when-elided="true" name="lal" style="position: absolute; left: 0; bottom: 30%; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; top: 30%;" />
+            <ui:Button text="look at right" display-tooltip-when-elided="true" name="lar" style="position: absolute; right: 0; bottom: 30%; top: 30%; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px; padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
